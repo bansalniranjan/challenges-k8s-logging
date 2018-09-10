@@ -20,8 +20,9 @@ Blog URL: https://kubernetes.dennyzhang.com/challenges-k8s-logging, Category: [[
 
 ** Questions
 *** When fluentd scan pod log files, it's not fast enough.
-
 It will scan every 60 seconds. But my pods may be recreated within 10 seconds.
+*** Multiple log agents for different personas?
+*** kube pods: k8s related pods and pods from k8s add
 *** If each k8s worker node only has one log agent, would logging aggregation run into performance issue?
 ** More Resources
  License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
